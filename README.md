@@ -3,7 +3,7 @@
 An un-guided, resource-efficient computational pipeline built using Python's **Scanpy** ecosystem to model early-stage genetic risks in Alzheimer's Disease (AD). This project bypasses wet-lab dependencies by utilizing high-throughput public repositories to integrate multi-sample 3D brain organoid single-cell datasets, investigating cell-type-specific metabolic and oxidative stress signatures driven by the Apolipoprotein E4 (APOE4) allele. 
 
 ## 📁 Repository Architecture
-
+```text
 apoe4-organoid-lipidomics/
 ├── data/                    # Downloaded multi-dimensional H5 matrices
 ├── results/
@@ -15,6 +15,7 @@ apoe4-organoid-lipidomics/
 │   ├── 02_embedding_umap.py # Normalization, PCA, and K-means clustering
 │   └── 03_dge_analysis.py   # Sub-cluster isolation and metabolic DGE profiling
 └── README.md                # Master pipeline documentation
+```
 
 #### 📊 Dataset Metadata Baseline
 
